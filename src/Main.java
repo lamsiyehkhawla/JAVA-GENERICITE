@@ -20,7 +20,7 @@ public class Main {
 
             switch (choix) {
                 case 1:
-                    System.out.println("\nListe des produits :");
+                    System.out.println("\nListe des produits !!! :");
                     for (Produit produit : metier.getAll()) {
                         System.out.println(produit);
                     }
